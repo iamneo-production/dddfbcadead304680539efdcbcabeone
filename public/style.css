@@ -56,6 +56,16 @@
   .reset{
     text-align: center;
   }
+  .reset-button{
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .reset-button:hover{
+    background-color: #000;
+    color: #fff;
+  }
 nav{
     background-color: rgb(37, 9, 37);
     color: white;
